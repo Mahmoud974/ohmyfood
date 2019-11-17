@@ -1,0 +1,9 @@
+/*Taille d'ecran responsive*/
+section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
+}
+
+/*# sourceMappingURL=mentionStyle.css.map */

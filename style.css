@@ -1,0 +1,322 @@
+/*Taille d'ecran responsive*/
+html,
+body,
+ul,
+ol,
+li,
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer, .headerGreen {
+  background-color: #19947B;
+  height: 100px;
+}
+
+.headerGreen {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.headerGreen img {
+  width: 17%;
+}
+
+.blockGeneral {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  justify-content: center;
+}
+
+.twomenus .box-imagesThree, .onemenu .box-imagesOne {
+  margin-right: 20px;
+  box-shadow: 10px 5px 20px #a0a0a0;
+}
+
+.twomenus .box-imagesFour, .onemenu .box-imagesTwo {
+  margin-left: 20px;
+  box-shadow: 10px 5px 20px #a0a0a0;
+}
+
+.onemenu .box-imagesOne {
+  width: 300px;
+  height: 450px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #FFE1DC;
+  /*EFFECT ZOOM*/
+  opacity: 1;
+  position: relative;
+  transition: all 200ms ease-in;
+  transform: scale(1);
+  animation-name: shake;
+}
+.onemenu .box-imagesOne:hover {
+  z-index: 2;
+  transition: all 200ms ease-in;
+  transform: scale(1.1);
+  opacity: 0.5;
+}
+.onemenu .box-imagesOne p {
+  font-size: 1.5em;
+  font-family: "Satisfy", cursive;
+  color: black;
+  margin: 5px;
+}
+.onemenu .box-imagesOne p i {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(56deg, #ff5506, 20%, #fd793c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.8em;
+}
+.onemenu .box-imagesOne h1 {
+  color: black;
+  font-family: "Handlee", cursive;
+}
+
+.onemenu .box-imagesTwo {
+  width: 300px;
+  height: 450px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  /*EFFECT ZOOM*/
+  opacity: 1;
+  position: relative;
+  transition: all 200ms ease-in;
+  transform: scale(1);
+  animation-name: shake;
+}
+.onemenu .box-imagesTwo:hover {
+  z-index: 2;
+  transition: all 200ms ease-in;
+  transform: scale(1.1);
+  opacity: 0.5;
+}
+.onemenu .box-imagesTwo h1, .onemenu .box-imagesTwo p {
+  background: linear-gradient(90deg, #2828b3, 50%, #799dff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.onemenu .box-imagesTwo p {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.5em;
+}
+.onemenu .box-imagesTwo h1 {
+  font-family: "Handlee", cursive;
+}
+
+.twomenus .box-imagesThree {
+  width: 300px;
+  height: 450px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff9ff;
+  /*EFFECT ZOOM*/
+  opacity: 1;
+  position: relative;
+  transition: all 200ms ease-in;
+  transform: scale(1);
+  animation-name: shake;
+}
+.twomenus .box-imagesThree:hover {
+  z-index: 2;
+  transition: all 200ms ease-in;
+  transform: scale(1.1);
+  opacity: 0.5;
+}
+.twomenus .box-imagesThree h1, .twomenus .box-imagesThree p {
+  background: linear-gradient(40deg, #fd7e07, 40%, #cc3df0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.twomenus .box-imagesThree p {
+  font-family: "Jomolhari", serif;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.twomenus .box-imagesThree h1 {
+  font-family: "Handlee", cursive;
+}
+
+.twomenus .box-imagesFour {
+  width: 300px;
+  height: 450px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #edfdf2;
+  /*EFFECT ZOOM*/
+  opacity: 1;
+  position: relative;
+  transition: all 200ms ease-in;
+  transform: scale(1);
+  animation-name: shake;
+}
+.twomenus .box-imagesFour:hover {
+  z-index: 2;
+  transition: all 200ms ease-in;
+  transform: scale(1.1);
+  opacity: 0.5;
+}
+.twomenus .box-imagesFour h1, .twomenus .box-imagesFour p {
+  background: linear-gradient(70deg, #01860c, 40%, #53fd3d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.twomenus .box-imagesFour p {
+  font-family: "Kaushan Script", cursive;
+  font-size: 1.5em;
+}
+.twomenus .box-imagesFour h1 {
+  font-family: "Handlee", cursive;
+}
+
+.onemenu, .twomenus {
+  display: flex;
+  justify-content: center;
+  margin: 60px;
+}
+.onemenu a, .twomenus a {
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  width: 220px;
+  padding: 10px 25px;
+  font-size: 2em;
+  border-radius: 10px;
+  display: flex;
+  margin: 0 auto 150px;
+  background: #19947B;
+  color: #FDC100;
+  position: relative;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}
+.button span {
+  border-right: 0.1em solid black;
+  width: 16.5em;
+  width: 16ch;
+  margin: 0;
+  overflow: hidden;
+  animation: typing 5s steps(21, end) infinite, blink-caret 0.3s step-end infinite alternate;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+footer div {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+footer div p {
+  color: #FDC100;
+  font-size: 1.5em;
+  font-family: Helvetica, sans-serif;
+  animation-name: shake;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+footer div p a {
+  color: #FDC100;
+  text-decoration: none;
+  margin-top: 25px;
+}
+@keyframes shake {
+  10%, 30%, 50%, 70%, 90% {
+    transform: translate3d(-2px, 0, 0);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .headerGreen {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 130px;
+  }
+  .headerGreen img {
+    width: 50%;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  a {
+    margin: 0;
+    padding: 0;
+  }
+
+  .onemenu, .twomenus {
+    margin: auto;
+  }
+
+  .onemenu .box-imagesOne, .onemenu .box-imagesTwo {
+    margin: 40px;
+  }
+
+  .twomenus .box-imagesThree, .twomenus .box-imagesFour {
+    margin: 40px;
+  }
+
+  .button {
+    margin-top: 58px;
+    margin-bottom: 230px;
+  }
+
+  footer {
+    height: 160px;
+  }
+  footer div {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

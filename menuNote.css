@@ -1,0 +1,109 @@
+/*Taille d'ecran responsive*/
+body,
+html {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.myTitle h1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 2.2em;
+}
+.myTitle h1 i {
+  background: linear-gradient(26deg, #c33e00, 20%, #fd793c);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 1.8em;
+}
+
+h1 {
+  color: black;
+  font-family: "Satisfy", cursive;
+  text-align: center;
+  font-size: 3.3em;
+  padding: 60px;
+}
+
+h3 {
+  font-family: "Handlee", cursive;
+  font-size: 15px;
+  margin: -14px 9px 0 9px;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+section {
+  width: 550px;
+  height: 750px;
+  background: #FFE1DC;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px auto;
+  border: 1px black solid;
+}
+section ul {
+  padding: 5px 30px;
+  margin: 10px;
+}
+section li {
+  font-family: "Handlee", cursive;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9em;
+  padding: 4px;
+}
+section li .prix {
+  text-align: right;
+}
+
+.trait {
+  width: 200px;
+  height: 4px;
+  background: black;
+}
+
+.esquisse {
+  display: flex;
+  text-align: center;
+}
+
+.prelude, .orgue, .mouvement {
+  display: flex;
+  justify-content: center;
+}
+
+.downMusic h3 {
+  display: flex;
+  font-size: 1.2em;
+  justify-content: center;
+}
+.downMusic h3 i {
+  background: linear-gradient(26deg, #c33e00, 20%, #fd793c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.8em;
+  padding-right: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+  .headerGreen {
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+
+  section {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  section .downMusic h3 {
+    padding: 30px;
+  }
+}
+
+/*# sourceMappingURL=menuNote.css.map */

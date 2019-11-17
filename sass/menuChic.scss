@@ -1,0 +1,125 @@
+@import "libs/responsive.scss";
+$colorGreen: #19947B;
+$fontFamily:  'Source Serif Pro', cursive;
+
+
+
+
+body,
+html
+{
+  padding: 0;
+  margin: 0;
+  
+  
+}
+
+%colorGradient
+{
+    background: linear-gradient(40deg,rgb(253, 126, 7), 40%,  rgb(204, 61, 240) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h1
+{
+    @extend %colorGradient;
+  font-family: $fontFamily;
+  text-align: center;
+  
+  font-size: 2em;
+  
+  padding: 60px;
+}
+h3 
+{
+   @extend %colorGradient;
+  font-family: $fontFamily;
+  font-size: 15px;
+  margin: -8px 9px 0 9px;
+  
+}
+
+
+section
+{
+  width: 550px;
+  height: 750px;
+  background: rgb(255, 250, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px auto;
+  border: 1px black solid;
+
+  & ul 
+  {
+      @extend %colorGradient;
+    padding:30px 30px;
+    
+    
+  }
+  
+  
+  & li
+  {
+    font-family: $fontFamily;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    padding: 8px;
+    
+  & p
+  {
+    text-align: left;
+  }
+  & .prix
+  {
+    text-align: right;
+  }
+  
+  }
+
+  
+
+}
+.trait
+  {
+    width: 180px;
+    height: 4px;
+    background: linear-gradient(90deg,rgb(253, 126, 7), 70%,  rgb(204, 61, 240) );
+  }
+.esquisse
+{
+  display: flex;
+  text-align: center;
+
+  
+}
+.appetit, .orgue, .terminer
+{
+  display: flex;
+  justify-content: center;
+}
+
+@media #{$screen-md-max}
+{
+    .headerGreen
+    {
+        position: fixed;
+        left: 0;
+        top: 0;
+       
+      
+    }
+    section
+    {
+      width: 100%;
+      height: 950px;
+      display: block;
+      
+    }
+    
+  }
+ 
+  

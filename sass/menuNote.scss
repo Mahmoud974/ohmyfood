@@ -1,0 +1,160 @@
+@import "libs/responsive.scss";
+$fontFamily:  'Satisfy', cursive;
+$fontFamilyPar: 'Handlee', cursive;
+
+
+body,
+html
+{
+  padding: 0;
+  margin: 0;
+  overflow-x:hidden;
+  
+  
+}
+
+.myTitle h1
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 2.2em;
+
+    & i
+    {
+        background: linear-gradient(26deg,rgb(195, 62, 0), 20%,  rgb(253, 121, 60) );
+        -webkit-background-clip: text;
+        color: transparent;
+        font-size: 1.8em;
+    }
+}
+
+h1
+{
+    color: black;
+  font-family: $fontFamily;
+  text-align: center;
+  font-size: 3.3em;
+  
+  padding: 60px;
+}
+h3 
+{
+   
+  font-family: $fontFamilyPar;
+  font-size: 15px;
+  margin: -14px 9px 0 9px;
+  text-align: center;
+  font-size: 1.1em;
+  
+}
+
+
+section
+{
+  width: 550px;
+  height: 750px;
+  background: #FFE1DC;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px auto;
+  border: 1px black solid;
+
+  & ul 
+  {
+   
+    padding:5px 30px;
+    margin: 10px;
+    
+    
+  }
+  
+  
+  & li
+  {
+    font-family: $fontFamilyPar;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    padding: 4px;
+    
+    
+  
+  & .prix
+  {
+    text-align: right;
+  }
+  
+  }
+
+  
+
+}
+.trait
+  {
+    width: 200px;
+    height: 4px;
+    background: black;
+    
+  
+  }
+.esquisse
+{
+  display: flex;
+  text-align: center;
+
+  
+}
+.prelude, .orgue, .mouvement
+{
+  display: flex;
+  justify-content: center;
+}
+.downMusic h3
+{
+  display: flex;
+  
+  font-size: 1.2em;
+  justify-content: center;
+
+  & i
+  {
+      background: linear-gradient(26deg,rgb(195, 62, 0), 20%,  rgb(253, 121, 60) );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 1.8em;
+      padding-right: 10px;
+  }
+}
+@media #{$screen-md-max}
+{
+    .headerGreen
+    {
+        position: fixed;
+        left: 0;
+        top: 0;
+       
+      
+    }
+    section 
+    {
+      width: 100%;
+      height: 100%;
+      display: block;
+      
+      & .downMusic{
+        h3{
+          padding: 30px;
+        }
+      }
+      
+     
+    }
+    
+    
+    
+  
+  }
+  
+  

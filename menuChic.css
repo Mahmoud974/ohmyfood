@@ -1,0 +1,85 @@
+/*Taille d'ecran responsive*/
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+section ul, h3, h1 {
+  background: linear-gradient(40deg, #fd7e07, 40%, #cc3df0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h1 {
+  font-family: "Source Serif Pro", cursive;
+  text-align: center;
+  font-size: 2em;
+  padding: 60px;
+}
+
+h3 {
+  font-family: "Source Serif Pro", cursive;
+  font-size: 15px;
+  margin: -8px 9px 0 9px;
+}
+
+section {
+  width: 550px;
+  height: 750px;
+  background: #fffaff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px auto;
+  border: 1px black solid;
+}
+section ul {
+  padding: 30px 30px;
+}
+section li {
+  font-family: "Source Serif Pro", cursive;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9em;
+  padding: 8px;
+}
+section li p {
+  text-align: left;
+}
+section li .prix {
+  text-align: right;
+}
+
+.trait {
+  width: 180px;
+  height: 4px;
+  background: linear-gradient(90deg, #fd7e07, 70%, #cc3df0);
+}
+
+.esquisse {
+  display: flex;
+  text-align: center;
+}
+
+.appetit, .orgue, .terminer {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .headerGreen {
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+
+  section {
+    width: 100%;
+    height: 950px;
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=menuChic.css.map */
