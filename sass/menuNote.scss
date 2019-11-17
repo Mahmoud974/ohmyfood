@@ -35,7 +35,7 @@ h1
   text-align: center;
   font-size: 3.3em;
   
-  padding: 60px;
+  padding: 30px;
 }
 h3 
 {
@@ -88,6 +88,11 @@ section
   
   }
 
+  & .downMusic{
+    h3{
+      padding: 30px;
+    }
+  }
   
 
 }
@@ -96,6 +101,10 @@ section
     width: 200px;
     height: 4px;
     background: black;
+   
+    
+    
+    
     
   
   }
@@ -110,6 +119,9 @@ section
 {
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 450px;
 }
 .downMusic h3
 {
@@ -143,11 +155,7 @@ section
       height: 100%;
       display: block;
       
-      & .downMusic{
-        h3{
-          padding: 30px;
-        }
-      }
+      
       
      
     }
