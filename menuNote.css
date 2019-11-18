@@ -29,7 +29,7 @@ h1 {
 h3 {
   font-family: "Handlee", cursive;
   font-size: 15px;
-  margin: -14px 9px 0 9px;
+  margin: -10px 9px 0 9px;
   text-align: center;
   font-size: 1.1em;
 }
@@ -64,9 +64,10 @@ section .downMusic h3 {
 }
 
 .trait {
-  width: 200px;
+  width: 167px;
   height: 4px;
   background: black;
+  display: flex;
 }
 
 .esquisse {
@@ -79,7 +80,6 @@ section .downMusic h3 {
   justify-content: center;
   align-items: center;
   margin: auto;
-  width: 450px;
 }
 
 .downMusic h3 {

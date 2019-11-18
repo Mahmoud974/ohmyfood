@@ -53,7 +53,7 @@ section li .prix {
 }
 
 .trait {
-  width: 180px;
+  width: 140px;
   height: 4px;
   background: linear-gradient(90deg, #fd7e07, 70%, #cc3df0);
 }
@@ -66,6 +66,7 @@ section li .prix {
 .appetit, .orgue, .terminer {
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 @media only screen and (max-width: 700px) {
