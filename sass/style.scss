@@ -255,9 +255,9 @@ a
 
 .button
 {
-    width: 220px;
+    width: 30px;
     padding: 10px 25px;
-    font-size: 2em;
+    font-size: 2.1em;
     border-radius: 10px;
     display: flex;
     
@@ -274,11 +274,11 @@ span {
 	
 	border-right: .1em solid black;
 	width: 16.5em; 
-	width: 16ch;
+	width: 1.5ch;
 	margin: 0;
 
 	overflow: hidden;
-	animation: typing 5s steps(21, end) infinite,
+	animation: typing 2s steps(21, end) infinite,
 	           blink-caret .3s step-end infinite alternate;
 
     }

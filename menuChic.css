@@ -52,7 +52,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 50px auto;
+  margin: 20px auto 180px;
   border: 1px black solid;
 }
 section ul {
