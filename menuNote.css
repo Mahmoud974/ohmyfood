@@ -137,6 +137,13 @@ section .downMusic h3 {
   .button {
     display: none;
   }
+
+  ul {
+    text-align: left;
+  }
+  ul .prix {
+    padding-left: 40px;
+  }
 }
 
 /*# sourceMappingURL=menuNote.css.map */

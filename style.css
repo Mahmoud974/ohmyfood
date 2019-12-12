@@ -40,6 +40,20 @@ footer, .headerGreen {
   justify-content: center;
 }
 
+div a {
+  opacity: 1;
+  position: relative;
+  transition: all 200ms ease-in;
+  transform: scale(1);
+  animation-name: shake;
+}
+div a:hover {
+  z-index: 2;
+  transition: all 200ms ease-in;
+  transform: scale(1.1);
+  opacity: 0.5;
+}
+
 .twomenus .box-imagesThree, .onemenu .box-imagesOne {
   margin-right: 20px;
   box-shadow: 10px 5px 20px #a0a0a0;
@@ -59,31 +73,20 @@ footer, .headerGreen {
   justify-content: center;
   background-color: #FFE1DC;
   /*EFFECT ZOOM*/
-  opacity: 1;
-  position: relative;
-  transition: all 200ms ease-in;
-  transform: scale(1);
-  animation-name: shake;
 }
-.onemenu .box-imagesOne:hover {
-  z-index: 2;
-  transition: all 200ms ease-in;
-  transform: scale(1.1);
-  opacity: 0.5;
+.onemenu .box-imagesOne i {
+  background: linear-gradient(56deg, #ff5506, 20%, #fd793c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -ms-webkit-background-clip: text;
+  -ms-text-fill-color: transparent;
+  font-size: 2.8em;
 }
 .onemenu .box-imagesOne p {
   font-size: 1.5em;
   font-family: "Satisfy", cursive;
   color: black;
   margin: 5px;
-}
-.onemenu .box-imagesOne p i {
-  display: flex;
-  flex-direction: column;
-  background: linear-gradient(56deg, #ff5506, 20%, #fd793c);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 1.8em;
 }
 .onemenu .box-imagesOne h1 {
   color: black;
@@ -99,17 +102,6 @@ footer, .headerGreen {
   justify-content: center;
   background-color: white;
   /*EFFECT ZOOM*/
-  opacity: 1;
-  position: relative;
-  transition: all 200ms ease-in;
-  transform: scale(1);
-  animation-name: shake;
-}
-.onemenu .box-imagesTwo:hover {
-  z-index: 2;
-  transition: all 200ms ease-in;
-  transform: scale(1.1);
-  opacity: 0.5;
 }
 .onemenu .box-imagesTwo h1, .onemenu .box-imagesTwo p {
   background: linear-gradient(90deg, #2828b3, 50%, #799dff);
@@ -133,17 +125,6 @@ footer, .headerGreen {
   justify-content: center;
   background-color: #fff9ff;
   /*EFFECT ZOOM*/
-  opacity: 1;
-  position: relative;
-  transition: all 200ms ease-in;
-  transform: scale(1);
-  animation-name: shake;
-}
-.twomenus .box-imagesThree:hover {
-  z-index: 2;
-  transition: all 200ms ease-in;
-  transform: scale(1.1);
-  opacity: 0.5;
 }
 .twomenus .box-imagesThree h1, .twomenus .box-imagesThree p {
   background: linear-gradient(40deg, #fd7e07, 40%, #cc3df0);
@@ -168,17 +149,6 @@ footer, .headerGreen {
   justify-content: center;
   background-color: #edfdf2;
   /*EFFECT ZOOM*/
-  opacity: 1;
-  position: relative;
-  transition: all 200ms ease-in;
-  transform: scale(1);
-  animation-name: shake;
-}
-.twomenus .box-imagesFour:hover {
-  z-index: 2;
-  transition: all 200ms ease-in;
-  transform: scale(1.1);
-  opacity: 0.5;
 }
 .twomenus .box-imagesFour h1, .twomenus .box-imagesFour p {
   background: linear-gradient(70deg, #01860c, 40%, #53fd3d);
@@ -209,9 +179,9 @@ footer, .headerGreen {
 }
 
 .button {
-  width: 30px;
+  width: 40px;
   padding: 10px 25px;
-  font-size: 2.1em;
+  font-size: 2.5em;
   border-radius: 10px;
   display: flex;
   margin: 0 auto 150px;
@@ -232,10 +202,10 @@ footer, .headerGreen {
 .button span {
   border-right: 0.1em solid black;
   width: 16.5em;
-  width: 1.5ch;
+  width: 13.5ch;
   margin: 0;
   overflow: hidden;
-  animation: typing 2s steps(21, end) infinite, blink-caret 0.3s step-end infinite alternate;
+  animation: typing 7s steps(21, end) infinite, blink-caret 0.5s step-end infinite alternate;
 }
 
 footer {

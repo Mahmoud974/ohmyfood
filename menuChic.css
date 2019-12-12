@@ -111,6 +111,13 @@ section li .prix {
     height: 950px;
     display: block;
   }
+
+  ul {
+    text-align: left;
+  }
+  ul .prix {
+    padding-left: 40px;
+  }
 }
 
 /*# sourceMappingURL=menuChic.css.map */
