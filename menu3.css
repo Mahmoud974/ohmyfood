@@ -37,9 +37,26 @@ div h2:hover:before {
 }
 
 h3 {
+  display: inline-block;
   font-family: "Handlee", cursive;
   font-size: 15px;
   margin: -8px 6px 0 6px;
+}
+
+h3:before {
+  content: "";
+  display: block;
+  height: 0.25em;
+  width: 0%;
+  cursor: pointer;
+  background-color: #000;
+  transition: width 0.4s;
+  top: 35px;
+  position: relative;
+}
+
+h3:hover:before {
+  width: 100%;
 }
 
 section {

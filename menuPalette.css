@@ -39,11 +39,28 @@ div h2:hover:before {
   width: 100%;
 }
 
-h3 {
+.surli {
+  display: inline-block;
   font-family: "Handlee", cursive;
   font-size: 15px;
   margin: -8px 9px 0 9px;
   text-align: center;
+}
+
+.surli:before {
+  content: "";
+  display: block;
+  height: 0.25em;
+  width: 0%;
+  cursor: pointer;
+  background-color: #000;
+  transition: width 0.4s;
+  top: 35px;
+  position: relative;
+}
+
+.surli:hover:before {
+  width: 100%;
 }
 
 section {
@@ -113,7 +130,7 @@ section li .prix {
     text-align: left;
   }
   ul .prix {
-    padding-left: 40px;
+    padding-left: 90px;
   }
 }
 

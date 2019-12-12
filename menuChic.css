@@ -5,7 +5,7 @@ html {
   margin: 0;
 }
 
-section ul, h3, h1 {
+section ul, .surli, h1 {
   background: linear-gradient(40deg, #fd7e07, 40%, #cc3df0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -39,10 +39,27 @@ div h2:hover:before {
   width: 100%;
 }
 
-h3 {
+.surli {
+  display: inline-block;
   font-family: "Source Serif Pro", cursive;
   font-size: 15px;
   margin: -8px 9px 0 9px;
+}
+
+.surli:before {
+  content: "";
+  display: block;
+  height: 0.25em;
+  width: 0%;
+  cursor: pointer;
+  background-color: #000;
+  transition: width 0.4s;
+  top: 35px;
+  position: relative;
+}
+
+.surli:hover:before {
+  width: 100%;
 }
 
 section {
