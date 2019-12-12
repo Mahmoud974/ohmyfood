@@ -18,6 +18,27 @@ h1 {
   padding: 60px;
 }
 
+div {
+  text-align: center;
+}
+div h2 {
+  display: inline-block;
+}
+div h2:before {
+  content: "";
+  display: block;
+  height: 0.25em;
+  width: 0%;
+  cursor: pointer;
+  background-color: #000;
+  transition: width 0.4s;
+  top: 35px;
+  position: relative;
+}
+div h2:hover:before {
+  width: 100%;
+}
+
 h3 {
   font-family: "Source Serif Pro", cursive;
   font-size: 15px;

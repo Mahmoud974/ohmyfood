@@ -5,25 +5,50 @@ html {
   margin: 0;
 }
 
-h1 {
-  font-family: "Dancing Script", cursive;
-  text-align: center;
-  font-size: 3em;
-  background: linear-gradient(90deg, #2828b3, 50%, #799dff);
+section ul, h3, h1 {
+  background: linear-gradient(40deg, #fd7e07, 40%, #cc3df0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+h1 {
+  font-family: "Source Serif Pro", cursive;
+  text-align: center;
+  font-size: 2em;
   padding: 60px;
 }
 
+div {
+  text-align: center;
+}
+div h2 {
+  display: inline-block;
+}
+div h2:before {
+  content: "";
+  display: block;
+  height: 0.25em;
+  width: 0%;
+  cursor: pointer;
+  background-color: #000;
+  transition: width 0.4s;
+  top: 35px;
+  position: relative;
+}
+div h2:hover:before {
+  width: 100%;
+}
+
 h3 {
-  font-family: "Handlee", cursive;
+  font-family: "Source Serif Pro", cursive;
   font-size: 15px;
-  margin: -8px 6px 0 6px;
+  margin: -8px 9px 0 9px;
 }
 
 section {
   width: 550px;
   height: 750px;
+  background: #fffaff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,7 +59,7 @@ section ul {
   padding: 30px 30px;
 }
 section li {
-  font-family: "Handlee", cursive;
+  font-family: "Source Serif Pro", cursive;
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -49,9 +74,9 @@ section li .prix {
 }
 
 .trait {
-  width: 200px;
+  width: 140px;
   height: 4px;
-  background: linear-gradient(90deg, #2828b3, 50%, #799dff);
+  background: linear-gradient(90deg, #fd7e07, 70%, #cc3df0);
 }
 
 .esquisse {
@@ -59,9 +84,10 @@ section li .prix {
   text-align: center;
 }
 
-.prelude, .orgue, .terminer {
+.appetit, .orgue, .terminer {
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 @media only screen and (max-width: 700px) {
@@ -69,6 +95,12 @@ section li .prix {
     position: fixed;
     left: 0;
     top: 0;
+  }
+
+  section {
+    width: 100%;
+    height: 950px;
+    display: block;
   }
 }
 
