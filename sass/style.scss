@@ -273,7 +273,7 @@ a
     position: relative;
 
 
-@keyframes typing { from { width: 0; } }
+@keyframes typing { from { width: 220px; } }
 @keyframes blink-caret { 50% { border-color: transparent; } }
 
 span { 
@@ -284,8 +284,8 @@ span {
 	margin: 0;
 
 	overflow: hidden;
-	animation: typing 7s steps(25, end) infinite,
-	           blink-caret .2s step-end infinite alternate;
+	animation: typing 2s steps(25, end) infinite ,
+	           blink-caret .3s step-end infinite alternate;
 
     }
 
