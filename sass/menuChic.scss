@@ -41,6 +41,7 @@ div
  display: inline-block
 
 }
+
 h2:before {
   content: "";
   display: block;
@@ -65,7 +66,7 @@ h2:before {
    @extend %colorGradient;
   font-family: $fontFamily;
   font-size: 15px;
-  margin: -8px 9px 0 9px;
+  margin: -12px 9px 0 9px;
   
 }
 

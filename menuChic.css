@@ -43,7 +43,7 @@ div h2:hover:before {
   display: inline-block;
   font-family: "Source Serif Pro", cursive;
   font-size: 15px;
-  margin: -8px 9px 0 9px;
+  margin: -12px 9px 0 9px;
 }
 
 .surli:before {

@@ -67,13 +67,16 @@ h2:before {
 
 }
 
-
-
-.surli, h3
+h3
 {
-  display: inline-block;
   font-family: $fontFamilyPar;
   font-size: 15px;
+}
+
+.surli
+{
+  display: inline-block;
+
   margin: -10px 14px 0 14px;
   text-align: center;
   font-size: 1.1em;
@@ -179,13 +182,14 @@ section
   
   
 }
+
 .downMusic h3
 {
   display: flex;
   
   font-size: 1.2em;
   justify-content: center;
-
+  
   & i
   {
       background: linear-gradient(26deg,rgb(195, 62, 0), 20%,  rgb(253, 121, 60) );
@@ -240,6 +244,7 @@ section
         padding-left: 40px;
       }
     }
+    
     
   
   }

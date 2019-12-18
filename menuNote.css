@@ -47,10 +47,13 @@ div h2:hover:before {
   width: 100%;
 }
 
-.surli, h3 {
-  display: inline-block;
+h3 {
   font-family: "Handlee", cursive;
   font-size: 15px;
+}
+
+.surli {
+  display: inline-block;
   margin: -10px 14px 0 14px;
   text-align: center;
   font-size: 1.1em;
