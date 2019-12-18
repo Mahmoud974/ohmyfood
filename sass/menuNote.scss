@@ -196,6 +196,13 @@ section
 }
 @media #{$screen-md-max}
 {
+  .surli:before {
+  display: none;
+    
+   }
+
+
+
     .headerGreen
     {
         position: fixed;
