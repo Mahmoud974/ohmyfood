@@ -62,7 +62,7 @@ h2:before {
    
   font-family: $fontFamilyPar;
   font-size: 15px;
-  margin: -8px 9px 0 9px;
+  margin: -10px 14px 0 14px;
   text-align: center;
   
 }
@@ -147,6 +147,8 @@ section
 
 @media #{$screen-md-max}
 {
+
+  
   .surli:before {
     display: none;
       
@@ -191,6 +193,8 @@ section
         padding-left: 90px;
       }
     }
+
+    
     
   }
  

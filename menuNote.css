@@ -51,9 +51,10 @@ div h2:hover:before {
   display: inline-block;
   font-family: "Handlee", cursive;
   font-size: 15px;
-  margin: -10px 9px 0 9px;
+  margin: -10px 14px 0 14px;
   text-align: center;
   font-size: 1.1em;
+  width: 30%;
 }
 
 .surli:before {
