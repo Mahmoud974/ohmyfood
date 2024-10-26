@@ -1,14 +1,14 @@
 # Oh My Food 🌮
 
-Bienvenue sur le projet **Oh My Food**, une application web conçue pour explorer et découvrir des recettes de cuisine. 
+Bienvenue sur le projet **Oh My Food**, une application web conçue pour explorer les menus. 
 
 ## 📖 Description
 
-**Oh My Food** est une application qui permet aux utilisateurs de rechercher des recettes, de découvrir de nouveaux plats et de planifier leurs repas. Ce projet a été réalisé dans le cadre d'un défi Frontend Mentor pour améliorer mes compétences en développement web.
+**Oh My Food** est une application qui permet aux utilisateurs de rechercher les menus, de découvrir de nouveaux plats et de planifier leurs repas. Ce projet a été réalisé dans le cadre d'un Openclassrooms pour améliorer mes compétences en développement web.
 
 ## 🎨 Démo
 
-Vous pouvez consulter la démo en direct de l'application ici : [Oh My Food Demo](https://mahmoud974.github.io/ohmyfood/).
+Vous pouvez consulter la démo en direct de l'application ici : [[Oh My Food Demo](https://mahmoud974.github.io/ohmyfood/)](https://mahmoud974.github.io/ohmyfood/).
 
 ## 🚀 Fonctionnalités
 
